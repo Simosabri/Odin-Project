@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    font-size: 18px #E5E7E4; 
+    background-color: #1F2937;
+    align-items: center;
+ 
+} 
+.HL {
+    flex: 1;
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+.nav {
+    background-color: #1F2937;
+    text-decoration: none;
+    color: #f9faf8;
+    background: none;
+    border: none; 
+    font-size: 18px;
+    padding-top: 4px;
+    margin-right: 50px
+    
+}
