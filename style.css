@@ -18,8 +18,8 @@ header {
     font-weight: 700;
     color: #f9faf8;
     text-decoration: none;
-    padding-left: 50px;
-
+    padding-left: 60px;
+    margin-right: -20px;
 }
 
 nav a {
@@ -39,9 +39,7 @@ nav a {
     display: flex;
     background-color: #1F2937;
     align-items: center;
-    justify-content: center;
-
-
+    justify-content: space-between;
 }
 
 .awesome {
@@ -58,7 +56,7 @@ button {
     padding: 10px 30px;
     font-weight: bold;
     background-color: #3882F6;
-    color: aliceblue;
+    color: aliceblue;    
 }
 
 h3 {
@@ -73,18 +71,51 @@ h3 {
 }
 
 img {
-    width: 30em;
-    height: 15em;
+    width: 32em;
+    height: 14em;
 }
 
-.random {
-    text-align: center;
-}
+
 
 .info {
+    text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
     font-weight: bolder;
     font-size: 36px;
     color : #1F2937;
     text-transform: capitalize;
+}
+
+.cc  {
+    display: flex;
+    align-items: center;
+    padding: 1px 250px;
+}
+
+.p {
+    padding: 80px 50px;
+    justify-items: center;
+    border: solid;
+    margin: 10px;
+    align-content: center;
+    border-radius: 1em;
+    border-color: #3882F6;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    padding: 10px 250px;
+}
+
+.t {
+    padding: 0px 20px;
+    border-radius: 1em;
+    justify-content: center;
+    align-content: flex-start;
+    color: rgb(53, 51, 51);
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 60px;
 }
