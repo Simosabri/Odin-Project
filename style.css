@@ -3,6 +3,7 @@
     padding: 0;
     width: 100%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -71,7 +72,7 @@ h3 {
 }
 
 img {
-    width: 32em;
+    width: 30em;
     height: 14em;
 }
 
@@ -118,4 +119,74 @@ img {
     font-size: larger;
     font-weight: 500;
     margin-bottom: 60px;
+}
+
+.quote {
+    padding: 100px 250px ;
+    align-content: center;
+    background-color: #e5e7eb;
+}
+
+.thequote {
+    font-size: 46px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    text-align:end;
+    padding-right: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #15171a;
+}
+
+
+.signup {
+    padding: 100px 150px ;
+    justify-items: center;
+    align-items: center;
+}
+
+.gg{
+    background-color: #3882F6;
+    padding: 40px 2px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-radius: 1em;
+}
+
+.first {
+    flex: 2;
+    color: #e5e7eb;
+    padding-left: 30px;
+}
+
+
+.divsup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.sup {
+    border: solid #e5e7eb;
+    border-radius: 1em;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 30px;
+    
+}
+
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: 400;
 }
