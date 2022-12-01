@@ -150,17 +150,19 @@ img {
 
 .gg{
     background-color: #3882F6;
-    padding: 40px 2px;
+    padding: 40px 10px;
     display: flex;
     align-items: center;
     justify-items: center;
-    border-radius: 1em;
+    border-radius: 0.8em;
 }
 
 .first {
     flex: 2;
     color: #e5e7eb;
     padding-left: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -177,6 +179,7 @@ img {
     align-items: center;
     justify-items: center;
     padding: 10px 30px;
+    font-size: larger;
     
 }
 
@@ -190,3 +193,4 @@ footer{
     font-size: 20px;
     font-weight: 400;
 }
+
